@@ -12,7 +12,7 @@ python server.py
 
 And in a browser on the server or on another system:
 
-http://odroid:8000
+http://odroid:8000 or http:/localhost:8000
 
 Webpage should display this:
 
@@ -22,5 +22,7 @@ Webpage should display this:
 Please comment as I'm not sure if I got the correct solution. However it tested ok.
 
 I plan to use this to see the temperature of my Odroid system and regulate the fan. Having the user interface on another system.
+
+The directory tstMemory contains a set of files which I used for testing memory usage. A refresh of the webpage is done every 10 seconds and in between 7 sends from client to server is done. Webpage can be openend in different webbrowser on different systems simultaneously. No memory leak was detected during this test.
 
 This is not a secure solution. So use it whithin your own network only, not to service requests from the outside hostile world. And ofcourse use at your OWN RISK.
