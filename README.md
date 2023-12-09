@@ -26,3 +26,5 @@ I plan to use this to see the temperature of my Odroid system and regulate the f
 The directory tstMemory contains a set of files which I used for testing memory usage. A refresh of the webpage is done every 10 seconds and in between 7 sends from client to server is done. Webpage can be openend in different webbrowser on different systems simultaneously. No memory leak was detected during this test.
 
 This is not a secure solution. So use it whithin your own network only, not to service requests from the outside hostile world. And ofcourse use at your OWN RISK.
+
+Saterday, 9 december 2023 16:34
