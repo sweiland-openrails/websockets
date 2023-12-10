@@ -27,4 +27,4 @@ The directory tstMemory contains a set of files which I used for testing memory 
 
 This is not a secure solution. So use it whithin your own network only, not to service requests from the outside hostile world. And ofcourse use at your OWN RISK.
 
-Sunday, 10 december 2023 11:08
+Sunday, 10 december 2023 13:27
